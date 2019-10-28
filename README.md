@@ -2,7 +2,7 @@
 
 A Scrapy spider to scrape user and track information from SoundCloud.
 
-Steps to get started:
+**Steps to get started**:
 
  1) Create a SQLite database with the desired data (see `items.py` or Soundcloud docs for full list).
  2) Build a seed list of accounts to begin scraping (the spider will also scrape all related to the accounts in this list so the results returned can grow exponentially).
